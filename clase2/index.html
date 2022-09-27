@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clase 2</title>
+	</head>
+	<body>
+		<!--
+            Proceso ideal
+            1. El cliente presenta la idea para crear el sketch
+            2. Crear el wireframe, que es de baja calidad y estatico
+            3. Mockup, media o alta calidad, donde puede ser una imagen
+            4. Prototipo interactivo
+            
+            Proceso corto
+            1. El cliente presenta la idea para crear el sketch
+            2. Crear el wireframe, que es de baja calidad y estatico
+        -->
+		<header>
+			<!--
+            img: para imagenes
+            Tiene atributos "src" que es la ruta de la imagen y "alt"
+            alt tiene diferentes usos que son:
+                1. Texto cuando la img deja de existir
+                2. Ayuda al posicionamiento SEO de la img
+                3. Cuestiones de accesibilidad
+            -->
+			<img src="./img/gato.jpg" alt="Gato naranja" />
+			<!--Zona de navegacion-->
+			<nav>
+				<ul>
+					<!--
+                    a: anchor, es para enlace a otra ubicacion
+                    href es donde va el enlace
+                    Hay tres tipos de enlace, interno, relativo y absoluto
+                    El relativo direcciona a un archivo dentro del proyecto
+                    El absoluto es una direccion de sitio web, como google
+                    El interno manda a una direccion dentro de la misma pagina
+                -->
+					<li><a href="https://www.google.com/">Inicio</a></li>
+					<li><a href="nosotros.html">Nosotros</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+			<main>
+				<section id="contacto">
+					<h2>Informacion de contacto</h2>
+				</section>
+			</main>
+		</header>
+	</body>
+</html>
